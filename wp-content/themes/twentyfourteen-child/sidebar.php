@@ -8,6 +8,7 @@
  */
 ?>
 <div id="secondary">
+<?php echo __FILE__; ?>
 	<?php
 		$description = get_bloginfo( 'description', 'display' );
 		if ( ! empty ( $description ) ) :

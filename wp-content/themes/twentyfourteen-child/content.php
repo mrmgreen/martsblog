@@ -1,3 +1,4 @@
+<?php echo __FILE__; ?>
 <?php
 /**
  * The default template for displaying content
@@ -12,9 +13,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php twentyfourteen_post_thumbnail(); ?>
-	<?php $dir = __FILE__;
-	echo $dir;
-	?>
 
 	<header class="entry-header">
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>

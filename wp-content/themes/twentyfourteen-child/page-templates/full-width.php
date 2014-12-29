@@ -1,3 +1,4 @@
+<?php echo __FILE__; ?>
 <?php
 /**
  * Template Name: Full Width Page

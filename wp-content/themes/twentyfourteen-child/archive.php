@@ -1,3 +1,4 @@
+<?php echo __FILE__; ?>
 <?php
 /**
  * The template for displaying Archive pages
