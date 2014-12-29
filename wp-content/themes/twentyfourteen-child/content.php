@@ -1,4 +1,4 @@
-<?php echo __FILE__; ?>
+<?php if ( is_user_logged_in() ) { echo __FILE__; } ?>
 <?php
 /**
  * The default template for displaying content
