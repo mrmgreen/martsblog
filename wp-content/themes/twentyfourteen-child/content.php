@@ -1,4 +1,6 @@
-<?php if ( is_user_logged_in() ) { echo __FILE__; } ?>
+<?php if ( current_user_can('manage_options') ) { echo __FILE__; }
+	else echo 'naughty boy';
+ ?>
 <?php
 /**
  * The default template for displaying content
