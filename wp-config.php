@@ -78,3 +78,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/* adding savequeries constant for debuggin */
+define( 'SAVEQUERIES', true );

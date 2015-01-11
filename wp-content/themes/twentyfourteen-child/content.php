@@ -1,4 +1,7 @@
-<?php if ( is_user_logged_in() ) { echo __FILE__; } ?>
+<?php if ( is_user_logged_in() ) { echo __FILE__; } 
+$response = wp_remote_get( 'https://api.github.com/users/blobaugh' );
+var_dump($response);
+?>
 <?php
 /**
  * The default template for displaying content
