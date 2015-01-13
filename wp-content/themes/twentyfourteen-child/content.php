@@ -1,7 +1,13 @@
-<?php if ( current_user_can('manage_options') ) { echo __FILE__; }
-	else echo 'naughty boy';
- ?>
 <?php
+if ( is_user_logged_in() ) { echo __FILE__; }
+echo "<br>";
+echo 'This is the response from $_SERVER[PHP_SELF]' . $_SERVER['PHP_SELF'];
+echo "<br>";
+echo 'This is the response from $_SERVER[REQUEST_URI]' . $_SERVER['REQUEST_URI'];
+echo "<br>";
+$response = wp_remote_get( 'https://api.github.com/users/blobaugh' );
+var_dump($response);
+
 /**
  * The default template for displaying content
  *

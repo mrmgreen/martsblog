@@ -1,0 +1,72 @@
+[33mcommit 5c4cbbce49631fbdad3c97f1471d9f360a6acecb[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Sun Jan 11 12:43:06 2015 +0000
+
+    Testing plugins
+
+[33mcommit dcd92786280876e75e8d2d11ebcb62018edfde64[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Tue Dec 30 21:27:37 2014 +0000
+
+    Displays template only if admin
+
+[33mcommit 917848595c42f89336363d97de0e814be0c4ee6b[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Mon Dec 29 20:30:13 2014 +0000
+
+    Displays template only if user is logged in
+
+[33mcommit 61a5ce61b55aef40c19826f3d375ee083e4bb58d[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Mon Dec 29 20:24:27 2014 +0000
+
+    Display file paths
+
+[33mcommit 46905561e2c1b32725d7533ad178e4471686cc27[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Mon Dec 29 12:09:38 2014 +0000
+
+    Adding content.php also added lines 15-17 to display tempate path on on front end
+
+[33mcommit 40f35277ed664ad278894fa441d043008c56c1d1[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Mon Dec 29 12:08:04 2014 +0000
+
+    Adding files to child theme
+
+[33mcommit 4c56cbc9463b78805c31faa18a66c4d11fee3926[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Sun Dec 28 21:30:25 2014 +0000
+
+    created child theme based on twentyfourteen
+
+[33mcommit 194fd883f5e50cb46024f409cb31f469dae45e35[m
+Merge: 8570497 323fa58
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Sun Dec 28 18:10:09 2014 +0000
+
+    Merge branch 'master' of https://github.com/mrmgreen/martsblog
+
+[33mcommit 323fa58cbcb9170aec325161821c65eafdff3024[m
+Author: Martin Green <martin.green@moneyweek.com>
+Date:   Sun Dec 28 18:02:43 2014 +0000
+
+    Delete README.md
+
+[33mcommit 8570497f84fc6fd30bed84086230b7cab2e60bce[m
+Author: Martin Green <m.r.green@hotmail.co.uk>
+Date:   Thu Dec 18 23:52:00 2014 +0000
+
+    Initial commit
+
+[33mcommit a3e1df58d06ac4ea94dce4e55a94115ec68fec39[m
+Author: Martin Green <martin.green@moneyweek.com>
+Date:   Mon Sep 23 16:32:34 2013 +0100
+
+    Update README.md
+
+[33mcommit 864f4a7e0e1e521d43029569b31c711efba6ed40[m
+Author: Martin Green <martin.green@moneyweek.com>
+Date:   Mon Sep 23 08:32:02 2013 -0700
+
+    Initial commit
